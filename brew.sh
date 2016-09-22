@@ -141,3 +141,7 @@ brew cask install "${apps[@]}"
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+brew services start homebrew/php/php70
+brew services start mariadb
+mysql_secure_installation
