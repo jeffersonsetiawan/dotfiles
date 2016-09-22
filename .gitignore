@@ -12,3 +12,8 @@ Thumbs.db
 # Files that might appear on external disks
 .Spotlight-V100
 .Trashes
+
+# Jeff Code
+# PHPStorm
+.idea
+_ide_helper.php
