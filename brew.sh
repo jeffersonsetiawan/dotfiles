@@ -101,9 +101,10 @@ brew install mariadb
 brew install maven
 brew install node
 brew install openssl
-brew install php70
-brew install php70-imagick
-brew install php70-mcrypt
+brew install apr apr-util
+brew install homebrew/php/php70 --without-apache
+brew install homebrew/php/php70-imagick
+brew install homebrew/php/php70-mcrypt
 brew install python
 brew install sqlite
 brew install youtube-dl
