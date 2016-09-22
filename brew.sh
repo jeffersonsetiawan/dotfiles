@@ -108,6 +108,7 @@ brew install homebrew/php/php70-mcrypt
 brew install python
 brew install sqlite
 brew install youtube-dl
+brew install composer
 brew tap caskroom/cask
 brew install brew-cask
 brew tap caskroom/versions
