@@ -3,3 +3,4 @@
 composer global require "laravel/installer"
 composer global require "laravel/lumen-installer"
 composer global require "laravel/valet"
+composer global require "hirak/prestissimo"
