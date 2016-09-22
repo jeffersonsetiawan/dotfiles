@@ -16,9 +16,6 @@ alias p="cd ~/projects"
 alias g="git"
 alias h="history"
 alias j="jobs"
-alias ll="ls -la"
-alias bashp="nano ~/.bash_profile"
-alias aliases="nano ~/.aliases"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -155,9 +152,11 @@ alias reload="exec $SHELL -l"
 
 # Jeff Aliases
 alias zshrc='sudo nano ~/.zshrc'
+alias bashp="nano ~/.bash_profile"
 alias aliases='sudo nano ~/.aliases'
 alias vhost='sudo nano /etc/hosts'
 alias sshconfig='sudo nano ~/.ssh/config'
 alias laravel='~/.composer/vendor/bin/laravel'
 alias pa='php artisan'
 alias cdump='composer dump-autoload'
+alias ll="ls -la"
