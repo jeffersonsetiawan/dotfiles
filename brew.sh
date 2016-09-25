@@ -137,6 +137,7 @@ apps=(
     adobe-photoshop-lightroom
     adobe-illustrator-cc
     postman
+    iterm2
 )
 
 brew cask install "${apps[@]}"
