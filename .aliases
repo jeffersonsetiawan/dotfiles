@@ -160,3 +160,4 @@ alias laravel='~/.composer/vendor/bin/laravel'
 alias pa='php artisan'
 alias cdump='composer dump-autoload'
 alias ll="ls -la"
+alias gateway="netstat -nr | grep default"
