@@ -138,6 +138,7 @@ apps=(
     adobe-illustrator-cc
     postman
     iterm2
+    eclipse-java
 )
 
 brew cask install "${apps[@]}"
