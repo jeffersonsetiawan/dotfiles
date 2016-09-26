@@ -141,6 +141,12 @@ apps=(
     postman
     iterm2
     eclipse-java
+    quicklook-json
+    qlcolorcode
+    betterzipql
+    qlimagesize
+    qlstephen
+    quicklook-csv
 )
 
 brew cask install "${apps[@]}"
