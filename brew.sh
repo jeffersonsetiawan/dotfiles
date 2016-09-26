@@ -40,6 +40,7 @@ brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
+brew cask install java # for java related app (maven, vault cli, etc)
 
 # Install font tools.
 #brew tap bramstein/webfonttools
@@ -109,7 +110,8 @@ brew install python
 brew install sqlite
 brew install youtube-dl
 brew install composer
-brew tap caskroom/cask
+brew install vault-cli
+# brew tap caskroom/cask
 brew install brew-cask
 brew tap caskroom/versions
 
