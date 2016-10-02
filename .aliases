@@ -53,8 +53,8 @@ alias week='date +%V'
 # Stopwatch
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
-# Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade --all; composer self-update; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; sudo gem cleanup'
+# Get update installed composer, Ruby gems, Homebrew, npm, and their installed packages
+alias update='brew update; brew upgrade --all; composer self-update; composer global update; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; sudo gem cleanup'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
@@ -151,11 +151,11 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias reload="exec $SHELL -l"
 
 # Jeff Aliases
-alias zshrc='sudo nano ~/.zshrc'
-alias bashp="nano ~/.bash_profile"
-alias aliases='sudo nano ~/.aliases'
-alias vhost='sudo nano /etc/hosts'
-alias sshconfig='sudo nano ~/.ssh/config'
+alias zshrc='subl ~/.zshrc'
+alias bashp="subl ~/.bash_profile"
+alias aliases='subl ~/.aliases'
+alias vhost='subl /etc/hosts'
+alias sshconfig='subl ~/.ssh/config'
 alias laravel='~/.composer/vendor/bin/laravel'
 alias pa='php artisan'
 alias cdump='composer dump-autoload'
