@@ -111,9 +111,7 @@ brew install sqlite
 brew install youtube-dl
 brew install composer
 brew install vault-cli
-# brew tap caskroom/cask
-brew install brew-cask
-brew tap caskroom/versions
+brew install zsh
 
 apps=(
 	android-file-transfer
