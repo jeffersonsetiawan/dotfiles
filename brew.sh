@@ -99,46 +99,39 @@ brew install zopfli
 brew install imagemagick
 brew install mackup
 brew install mariadb
-brew install maven
-brew install node
+# brew install maven
+# brew install node
 brew install openssl
 brew install apr apr-util
-brew install homebrew/php/php70 --without-apache
-brew install homebrew/php/php70-imagick
-brew install homebrew/php/php70-mcrypt
+brew install homebrew/php/php71 --without-apache
+brew install homebrew/php/php71-imagick
+brew install homebrew/php/php71-mcrypt
 brew install python
 brew install sqlite
 brew install youtube-dl
 brew install composer
-brew install vault-cli
+# brew install vault-cli
 brew install zsh
 
 apps=(
 	android-file-transfer
 	android-studio
-    firefox
-    flux
-    gitup
+    # gitup
     google-chrome
     imageoptim
-    impactor
     microsoft-office
-    opera
     keycastr
-    pdfexpert
     sequel-pro
     sublime-text3
     sourcetree
-    sqlitebrowser
+    # sqlitebrowser
     the-unarchiver
     vlc
     whatsapp
     adobe-photoshop-cc
     adobe-photoshop-lightroom
-    adobe-illustrator-cc
     postman
     iterm2
-    eclipse-java
     quicklook-json
     qlcolorcode
     betterzipql
@@ -152,6 +145,6 @@ brew cask install "${apps[@]}"
 # Remove outdated versions from the cellar.
 brew cleanup
 
-brew services start homebrew/php/php70
+brew services start homebrew/php/php71
 brew services start mariadb
 mysql_secure_installation
