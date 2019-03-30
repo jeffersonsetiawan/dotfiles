@@ -89,11 +89,11 @@ brew install imagemagick --with-webp
 # brew install rhino
 # brew install speedtest_cli
 # brew install ssh-copy-id
-brew install testssl
-brew install tree
-brew install vbindiff
+#brew install testssl
+#brew install tree
+#brew install vbindiff
 brew install webkit2png
-brew install zopfli
+#brew install zopfli
 
 # Jeff Code
 brew install imagemagick
@@ -102,10 +102,10 @@ brew install mariadb
 # brew install maven
 # brew install node
 brew install openssl
-brew install apr apr-util
-brew install homebrew/php/php71 --without-apache
-brew install homebrew/php/php71-imagick
-brew install homebrew/php/php71-mcrypt
+#brew install apr apr-util
+#brew install homebrew/php/php71 --without-apache
+#brew install homebrew/php/php71-imagick
+#brew install homebrew/php/php71-mcrypt
 brew install python
 brew install sqlite
 brew install youtube-dl
@@ -119,7 +119,7 @@ apps=(
     # gitup
     google-chrome
     imageoptim
-    microsoft-office
+    #microsoft-office
     keycastr
     sequel-pro
     sublime-text3
