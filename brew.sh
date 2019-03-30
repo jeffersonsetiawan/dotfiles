@@ -75,7 +75,7 @@ brew cask install java # for java related app (maven, vault cli, etc)
 # brew install xz
 
 # Install other useful binaries.
-brew install ack
+#brew install ack
 #brew install exiv2
 brew install git
 brew install git-lfs
@@ -145,6 +145,6 @@ brew cask install "${apps[@]}"
 # Remove outdated versions from the cellar.
 brew cleanup
 
-brew services start homebrew/php/php71
-brew services start mariadb
+#brew services start homebrew/php/php71
+#brew services start mariadb
 mysql_secure_installation
